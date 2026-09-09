@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react'
 //  - User/organization site (a repo literally named <user>.github.io):
 //      base: '/'
 // Update REPO_NAME below to your actual repository name before deploying.
-const REPO_NAME = ''
+const REPO_NAME = 'shruti'
 
 export default defineConfig({
   plugins: [react()],
