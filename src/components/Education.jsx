@@ -10,7 +10,7 @@ export default function Education() {
           className="section-title"
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.7 }}
         >
           Academics
@@ -20,7 +20,7 @@ export default function Education() {
           style={{ marginTop: 24 }}
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.7 }}
         >
           <div>

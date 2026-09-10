@@ -34,7 +34,7 @@ export default function Contact() {
           className="contact-box"
           initial={{ opacity: 0, y: 28 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.7 }}
         >
           <div className="section-kicker" style={{ justifyContent: 'center', display: 'flex' }}>06 · Contact</div>
